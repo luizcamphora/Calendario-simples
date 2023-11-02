@@ -1,0 +1,25 @@
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.day {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.selected {
+    background-color: #0074d9;
+    color: #fff;
+}
+
+.result {
+    margin-top: 10px;
+}
+
+.controls {
+    margin-top: 20px;
+    text-align: center;
+}
